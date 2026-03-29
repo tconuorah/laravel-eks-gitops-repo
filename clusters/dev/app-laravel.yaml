@@ -9,7 +9,7 @@ spec:
   project: laravel-platform
   source:
     repoURL: https://github.com/tconuorah/laravel-eks-app-repo.git
-    targetRevision: cd3d08f223abbb8e5ebedc3208a0135739acf29c # gitops-source-revision
+    targetRevision: b8d75f713bf0efc1ee1e8e24b960a0f9b7b83400 # gitops-source-revision
     path: laravel-helm
     helm:
       releaseName: laravel
@@ -18,11 +18,11 @@ spec:
         image:
           nginx:
             repository: 022440376442.dkr.ecr.us-east-2.amazonaws.com/nginx
-            tag: "bd5034ede162" # gitops-nginx-tag
+            tag: "b8d75f713bf0" # gitops-nginx-tag
             pullPolicy: IfNotPresent
           php:
             repository: 022440376442.dkr.ecr.us-east-2.amazonaws.com/php
-            tag: "bd5034ede162" # gitops-php-tag
+            tag: "b8d75f713bf0" # gitops-php-tag
             pullPolicy: IfNotPresent
         ingress:
           enabled: true
