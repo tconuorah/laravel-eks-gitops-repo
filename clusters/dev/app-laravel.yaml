@@ -32,7 +32,7 @@ spec:
           certificateArn: ""
           sslRedirect: false
           hosts:
-            - host: laravel-dev.example.com
+            - host: ""
               paths:
                 - path: /
                   pathType: Prefix
