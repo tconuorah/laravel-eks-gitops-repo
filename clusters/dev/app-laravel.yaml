@@ -8,7 +8,7 @@ metadata:
 spec:
   project: laravel-platform
   source:
-    repoURL: https://github.com/tconuorah/laravel-eks-deploy-gitops.git
+    repoURL: https://github.com/tconuorah/laravel-eks-app-repo.git
     targetRevision: dev # gitops-source-revision
     path: laravel-helm
     helm:

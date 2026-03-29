@@ -8,7 +8,7 @@ metadata:
 spec:
   sourceRepos:
     - https://github.com/tconuorah/laravel-eks-gitops-repo.git
-    - https://github.com/tconuorah/laravel-eks-deploy-gitops.git
+    - https://github.com/tconuorah/laravel-eks-app-repo.git
   destinations:
     - namespace: argocd
       server: https://kubernetes.default.svc

@@ -27,6 +27,6 @@ kubectl apply -n argocd -f bootstrap/root-application.yaml
 ## Notes
 
 - The bootstrap manifest assumes the GitOps repo lives at `https://github.com/tconuorah/laravel-eks-gitops-repo.git`.
-- The Laravel application source repo is pinned in Argo CD to `https://github.com/tconuorah/laravel-eks-deploy-gitops.git`.
+- The Laravel application source repo is pinned in Argo CD to `https://github.com/tconuorah/laravel-eks-app-repo.git`.
 - The Laravel runtime secret is sourced from AWS Secrets Manager secret `php-nginx-app-dev/laravel/runtime`.
 - If you keep the GitOps repo private, create Argo CD repo credentials before applying the root application.
